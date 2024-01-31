@@ -9,7 +9,7 @@ const Navbar = () => {
   const navLinks = [
     { href: "/", label: "Home" },
     { href: "/search", label: "Search" },
-    { href: "/about", label: "About" },
+    { href: "/history-of-spotify", label: "History of Spotify" },
   ];
   return (
     <>
