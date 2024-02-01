@@ -2,6 +2,7 @@ import Image from "next/image";
 import React from "react";
 import imgFounder from "@/public/founder.webp";
 import HistorySlider from "@/components/HistorySlider";
+import InfoAccordion from "@/components/InfoAccordion";
 
 const HistoryOfSpotify = () => {
   return (
@@ -50,7 +51,7 @@ const HistoryOfSpotify = () => {
             </h4>
           </div>
         </div>
-        {/* <HistorySlider /> */}
+        <InfoAccordion />
         <div className="w-full md:w-1/2 lg:1/3 my-8 border border-green-900 p-3 rounded-lg shadow-md shadow-green-900/50">
           <h4 className="text-2xl text-green-300">
             Storming the US Market: 2011
