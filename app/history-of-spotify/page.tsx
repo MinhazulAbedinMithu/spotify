@@ -53,7 +53,7 @@ const HistoryOfSpotify = () => {
         <InfoAccordion />
         <div className="relative after:absolute after:content-[''] after:w-[4px] after:h-full after:bg-green-600 after:rounded-md after:top-0 md:after:left-[50%] after:ml-[-3px] after:-z-10 animation-scroll after:left-[15px]">
           <div className="relative  py-2 px-8 w-full md:w-1/2 lg:1/3 card-wrapper">
-            <div className="w-full z-0  bg-black relative border border-green-900 p-3 rounded-lg shadow-md shadow-green-900/50 ">
+            <div className="w-full z-0 bg-black relative border border-green-900 p-3 rounded-lg shadow-md shadow-green-900/50 ">
               <h4 className="text-2xl text-green-300">
                 Storming the US Market: 2011
               </h4>
@@ -63,7 +63,7 @@ const HistoryOfSpotify = () => {
                 primed for a US launch, backed by a [new $100 million funding
                 round]
               </p>
-              <div className="absolute h-0 w-0 top-[28px] -z-20 border-[15px] border-t-transparent border-b-transparent border-r-green-600 border-l-transparent md:border-l-green-600 md:border-r-transparent md:right-[-30px] left-[-30px]"></div>
+              <div className="absolute h-0 w-0 top-[28px] left-[-30px] md:left-[100%] -z-20 border-[15px] border-t-transparent border-b-transparent border-r-green-600 border-l-transparent md:border-l-green-600 md:border-r-transparent"></div>
             </div>
           </div>
           <div className="py-2 px-8 w-full md:w-1/2 lg:1/3 ml-auto card-wrapper">
@@ -108,7 +108,7 @@ const HistoryOfSpotify = () => {
                   insights.
                 </li>
               </ul>
-              <div className="absolute h-0 w-0 top-[28px] -z-20 border-[15px] border-t-transparent border-b-transparent border-r-green-600 border-l-transparent md:border-l-green-600 md:border-r-transparent md:right-[-30px] left-[-30px]"></div>
+              <div className="absolute h-0 w-0 top-[28px] -z-20 border-[15px] border-t-transparent border-b-transparent border-r-green-600 border-l-transparent md:border-l-green-600 md:border-r-transparent  left-[-30px] md:left-[100%]"></div>
             </div>
           </div>
           <div className="py-2 px-8 ml-auto w-full md:w-1/2 lg:1/3 card-wrapper">
