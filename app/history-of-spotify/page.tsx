@@ -7,50 +7,9 @@ const HistoryOfSpotify = () => {
   return (
     <div>
       <div className="container mx-auto py-8 px-2">
-        <h2 className="text-center text-4xl font-bold">History of Spotify</h2>
-        <div className="my-8 px-4 py-6 bg-gradient-to-br from-lime-900/25 via-emerald-900/50 to-cyan-900/25 rounded-xl hover:bg-transparent border-2 border-transparent shadow-lg hover:border-green-600">
-          <h4 className="text-2xl">
-            The Evolution of Spotify: Key Milestones from Launch to Today
-          </h4>
-          <p className="text-base py-4">
-            Spotify’s platform revolutionized music listening forever when we
-            launched in 2008. Our move into podcasting brought innovation and a
-            new generation of listeners to the medium, and in 2022 we entered
-            the next audio market primed for growth with the addition of
-            audiobooks.
-          </p>
-          <p>
-            Today, more listeners than ever can discover, manage, and enjoy over
-            100 million tracks, 5 million podcasts titles, and 350,000
-            audiobooks a la carte on Spotify. We are the world’s most popular
-            audio streaming subscription service with more than 574 million
-            users, including 226 million subscribers in more than 180 markets.
-          </p>
-        </div>
-        <div className="px-2 flex flex-col-reverse md:flex-row justify-between items-start">
-          <div>
-            <h4 className="text-2xl">Launch Countries in 2008:</h4>
-            <ul className="pl-4 list-inside list-disc">
-              <li className="text-base py-1">Sweden</li>
-              <li className="text-base py-1">Norway</li>
-              <li className="text-base py-1">Finland</li>
-              <li className="text-base py-1">Spain</li>
-            </ul>
-          </div>
-          <div>
-            <Image
-              src={imgFounder}
-              alt="Founder"
-              width={400}
-              className="rounded-lg"
-            />
-            <h4 className="text-center pt-2 text-lg">
-              Founder of Spotify:{" "}
-              <span className="font-bold text-green-700">Daniel Ek</span>
-            </h4>
-          </div>
-        </div>
-        <InfoAccordion />
+        <h2 className="text-center text-4xl pb-10 font-bold">
+          History of Spotify
+        </h2>
         <div className="relative after:absolute after:content-[''] after:w-[4px] after:h-full after:bg-green-600 after:rounded-md after:top-0 md:after:left-[50%] after:ml-[-3px] after:-z-10 animation-scroll after:left-[15px]">
           <div className="relative  py-2 px-8 w-full md:w-1/2 lg:1/3 card-wrapper">
             <div className="w-full z-0 bg-black relative border border-green-900 p-3 rounded-lg shadow-md shadow-green-900/50 ">
@@ -147,6 +106,50 @@ const HistoryOfSpotify = () => {
             </div>
           </div>
         </div>
+        <div className="my-8 px-4 py-6 bg-gradient-to-br from-lime-900/25 via-emerald-900/50 to-cyan-900/25 rounded-xl hover:bg-transparent border-2 border-transparent shadow-lg hover:border-green-600">
+          <h4 className="text-2xl">
+            The Evolution of Spotify: Key Milestones from Launch to Today
+          </h4>
+          <p className="text-base py-4">
+            Spotify’s platform revolutionized music listening forever when we
+            launched in 2008. Our move into podcasting brought innovation and a
+            new generation of listeners to the medium, and in 2022 we entered
+            the next audio market primed for growth with the addition of
+            audiobooks.
+          </p>
+          <p>
+            Today, more listeners than ever can discover, manage, and enjoy over
+            100 million tracks, 5 million podcasts titles, and 350,000
+            audiobooks a la carte on Spotify. We are the world’s most popular
+            audio streaming subscription service with more than 574 million
+            users, including 226 million subscribers in more than 180 markets.
+          </p>
+        </div>
+        <div className="px-2 flex flex-col-reverse md:flex-row justify-between items-start">
+          <div>
+            <h4 className="text-2xl">Launch Countries in 2008:</h4>
+            <ul className="pl-4 list-inside list-disc">
+              <li className="text-base py-1">Sweden</li>
+              <li className="text-base py-1">Norway</li>
+              <li className="text-base py-1">Finland</li>
+              <li className="text-base py-1">Spain</li>
+            </ul>
+          </div>
+          <div>
+            <Image
+              src={imgFounder}
+              alt="Founder"
+              width={400}
+              className="rounded-lg"
+            />
+            <h4 className="text-center pt-2 text-lg">
+              Founder of Spotify:{" "}
+              <span className="font-bold text-green-700">Daniel Ek</span>
+            </h4>
+          </div>
+        </div>
+        <InfoAccordion />
+
         <div className="my-8 px-4 py-6 bg-gradient-to-br from-lime-700/50 via-emerald-900/75 to-cyan-900/50 rounded-xl hover:bg-transparent border-2 border-transparent shadow-lg hover:border-green-600">
           <h4 className="text-2xl pb-2">The Future is Audio</h4>
           <p className="text-base">
