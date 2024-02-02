@@ -125,7 +125,7 @@ const HistoryOfSpotify = () => {
             users, including 226 million subscribers in more than 180 markets.
           </p>
         </div>
-        <div className="px-2 flex flex-col-reverse md:flex-row justify-between items-start">
+        <div className="px-2 flex flex-col-reverse md:flex-row justify-around items-start">
           <div>
             <h4 className="text-2xl">Launch Countries in 2008:</h4>
             <ul className="pl-4 list-inside list-disc">
