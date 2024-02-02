@@ -17,3 +17,42 @@ textarea:focus,
 input:focus {
   outline: none;
 }
+.animation-scroll::after {
+  animation: moveline 6s linear forwards;
+}
+@keyframes moveline {
+  0% {
+    height: 0;
+  }
+  100% {
+    height: 100%;
+  }
+}
+
+.card-wrapper {
+  animation: movedown 1s linear forwards;
+  opacity: 0;
+}
+
+.card-wrapper:nth-child(1) {
+  animation-delay: 0s;
+}
+.card-wrapper:nth-child(2) {
+  animation-delay: 1s;
+}
+.card-wrapper:nth-child(3) {
+  animation-delay: 2s;
+}
+.card-wrapper:nth-child(4) {
+  animation-delay: 3s;
+}
+@keyframes movedown {
+  0% {
+    opacity: 1;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
